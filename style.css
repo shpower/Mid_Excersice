@@ -4,7 +4,8 @@
 }
 body{
     margin: 0;
-}
+    text-decoration: none;
+} 
 
 .row1{
     background-color: #999;
@@ -12,7 +13,38 @@ body{
 }
 
 header{
+    position: relative;
     margin: 0 auto;
     width: 900px;
     height: 105px;
 }
+
+a#eng-menu{
+    /* display: inline-block; */
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.search-block{
+    position: absolute;
+    top: 20px;
+    left: 2px;
+    width: 152px;
+}
+
+.search-icon{
+    /* display: inline; */
+    /* margin-bottom: 6px;
+    margin-top: 1px;
+    margin-right: 1px;  */
+}
+/* .search-text{
+    display: inline-block;
+    margin: 0;
+} */
+/* img.search-text{
+    position: absolute;
+    display: block;
+}   */
